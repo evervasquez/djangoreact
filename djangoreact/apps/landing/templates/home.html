@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+    <p>Holi</p>
+    <div id="react"></div>
+
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'dist/index.js' %}"></script>
+
+{% endblock %}

@@ -4,7 +4,7 @@ venv
 staticfiles
 .env
 env
-node_modules
+node_modules/
 [project-name]/static/build
 db.sqlite3
 .DS_Store
